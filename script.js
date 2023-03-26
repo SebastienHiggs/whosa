@@ -203,15 +203,18 @@ family.on('field', function (sender, args) {
 });
 
 family.load([
-    { id: 1, pids: [2], name: "Mu See", bdate: 1883, ddate: 1966 },
-    { id: 2, pids: [1], name: "Kwan Hong Keo",  bdate: 1865, ddate: 1942 },
-	{ id: 3, fid:[1], mid:[2], name: "Stanley Young"},
-    { id: 4, fid:[1], mid:[2], name: "Roger Young"},
-	{ id: 5, fid:[3], pid:[6], name: "Valmai Au"},
-	{ id: 6, pid:[5],  name: "Samuel Au"},
-	{ id: 7, pid:[5],  name: "Janine Au"},
-	{ id: 8, pid:[5],  name: "Roselyn Au"},
-	{ id: 9, pid:[5],  name: "Geoffrey Au"},
+    { id: 00, pids: [01], name: "Mu See", bdate: 1883, ddate: 1966 },
+    { id: 01, pids: [00], name: "Kwan Hong Keo",  bdate: 1865, ddate: 1942 },
+	{ id: 11, fid:[00], mid:[01], name: "Stanley Young"},
+    { id: 16, fid:[00], mid:[01], name: "Roger Young"},
+	{ id: 20, pids:[21], fid:[11],  name: "Valmai Au"},
+	{ id: 21, pids:[20],  name: "Samuel Au"},
+	{ id: 30, fid:[21], name: "Janine Au"},
+	{ id: 31, fid:[21], name: "Roselyn Au"},
+	{ id: 32, fid:[21], pids:[33],  name: "Geoffrey Au"},
+	{ id: 33, pids:[32],  name: "Tue Nghi Au"},
+	{ id: 40, fid:[32], mid:[33], pids:[41],  name: "Phoebe Au"},
+	{ id: 41, pids:[40],  name: "Sebastien Higgs"},
 ]);
 
 /*family.load([
