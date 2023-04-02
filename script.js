@@ -236,9 +236,16 @@ family.load([
 	{ id: 20, fid:[2], pids:[11], name: "Edna"},
 	{ id: 21, fid:[2], name: "Joyce"},
 	{ id: 210, mid:[21], pids:[211], name: "Harvey Showyin"},
-	{ id: 211, pids:[210], mid:[42], name: "Jennifer Showyin"},
+	{ id: 211, pids:[210], fid:[50], mid:[42], name: "Jennifer Showyin"},
 	{ id: 2100, pids:[2101], mid:[211], fid:[210], name: "Jared Showyin"},
 	{ id: 2101, pids:[2100], fid:[88], mid:[89], name: "Jacqui Showyin"},
+
+    { id: 19, fid:[0], mid:[1], pids:[30], name: "Cecil Young"},
+    { id: 30, pids:[19], fid:[3], name: "Betty Young"},
+    { id: 3, name: "Mr(s?) Betty Mavis"},
+    { id: 31, fid:[3], name: "Mavis Fay"},
+    { id: 310, mid:[31], name: "Joe Fay"},
+    { id: 3100, fid:[310], name: "Nat Fay"},
 
 	{ id: 4, name: "Mar Parents"},
 	{ id: 40, fid:[4], name: "Harry Mar"},
@@ -256,10 +263,21 @@ family.load([
 	{ id: 4030, fid:[403], name: "Mr Mar"},
 	{ id: 40300, fid:[4030], name: "Matthias Mar"},
 
-    { id: 50, pids:[42], name: "Mr Lum Mow"},
+    { id: 5, name: "Mr Lum Mow"},
+
+    { id: 50, pids:[42], fid:[5], name: "Henry Lum Mow"},
 	{ id: 420, fid:[50], mid:[42], name: "Ray Lum Mow"},
-	{ id: 421, fid:[50], mid:[42], name: "Geoff Lum Mow"},
 	{ id: 422, fid:[50], mid:[42], name: "Maureen"},
+    { id: 51, pids:[52], fid:[5], name: "Mr ??"},
+    { id: 52, pids:[51], name: "Mrs ??"},
+    { id: 510, mid:[51], fid:[52], name: "Ginnie"},
+
+    { id: 421, fid:[50], mid:[42], pids:[440], name: "Geoff Lum Mow"},
+    { id: 440, pids:[421], name: "Felicity Lum Mow"},
+    { id: 4210, fid:[421], mid:[440], name: "Alistair Lum Mow"},
+    { id: 4211, fid:[421], mid:[440], name: "Josh Lum Mow"},
+    { id: 4212, fid:[421], mid:[440], name: "Ethan Lum Mow"},
+    { id: 4213, fid:[421], mid:[440], name: "Candace Lum Mow"},
 
     { id: 6, name: "Mr Mr Wong See"},
     { id: 60, pids:[43], fid:[6], name: "Mr Wong See"},
@@ -276,8 +294,8 @@ family.load([
     { id: 7000, fid:[700], mid:[610], pids:[7100], name: "Annelise Kelly"},
     { id: 7100, pids:[7000], name: "Wilson Kelly"},
 
-    { id: 80, pids:[81], name: "Gock Patriarch"},
-    { id: 81, pids:[80], name: "Gock Matriarch"},
+    { id: 80, pids:[81], name: "George Gock"},
+    { id: 81, pids:[80], name: "Mary Gock"},
     { id: 800, fid:[80], mid:[81], name: "Ivy Yee"},
     { id: 802, pids:[820], fid:[80], mid:[81], name: "Wayland Gock"},
     { id: 820, pids:[802], fid:[88], mid:[89], name: "Amy Gock"},
