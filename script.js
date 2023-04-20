@@ -236,6 +236,7 @@ family.load([
 	{ id: 20, fid:[2], pids:[11], name: "Edna"},
 	{ id: 21, fid:[2], name: "Joyce"},
 	{ id: 210, mid:[21], pids:[211], name: "Harvey Showyin"},
+	{ id: 220, mid:[21], pids:[420], name: "Naomi Lum Mow"},
 	{ id: 211, pids:[210], fid:[50], mid:[42], name: "Jennifer Showyin"},
 	{ id: 2100, pids:[2101], mid:[211], fid:[210], name: "Jared Showyin"},
 	{ id: 2101, pids:[2100], fid:[88], mid:[89], name: "Jackie Showyin"},
@@ -266,7 +267,7 @@ family.load([
     { id: 5, name: "Mr Lum Mow"},
 
     { id: 50, pids:[42], fid:[5], name: "Henry Lum Mow"},
-	{ id: 420, fid:[50], mid:[42], name: "Ray Lum Mow"},
+	{ id: 420, fid:[50], mid:[42], pids:[220], name: "Ray Lum Mow"},
 	{ id: 422, fid:[50], mid:[42], name: "Maureen"},
     { id: 51, pids:[52], fid:[5], name: "Mr ??"},
     { id: 52, pids:[51], name: "Mrs ??"},
