@@ -238,13 +238,13 @@ family.load([
 	{ id: 210, mid:[21], pids:[211], name: "Harvey Showyin"},
 	{ id: 211, pids:[210], fid:[50], mid:[42], name: "Jennifer Showyin"},
 	{ id: 2100, pids:[2101], mid:[211], fid:[210], name: "Jared Showyin"},
-	{ id: 2101, pids:[2100], fid:[88], mid:[89], name: "Jacqui Showyin"},
+	{ id: 2101, pids:[2100], fid:[88], mid:[89], name: "Jackie Showyin"},
 
     { id: 19, fid:[0], mid:[1], pids:[30], name: "Cecil Young"},
     { id: 30, pids:[19], fid:[3], name: "Betty Young"},
     { id: 3, name: "Mr(s?) Betty Mavis"},
     { id: 31, fid:[3], name: "Mavis Fay"},
-    { id: 310, mid:[31], name: "Joe Fay"},
+    { id: 310, mid:[31], pids:[510], name: "Gordon (Joe) Fay"},
     { id: 3100, fid:[310], name: "Nat Fay"},
 
 	{ id: 4, name: "Mar Parents"},
@@ -270,7 +270,7 @@ family.load([
 	{ id: 422, fid:[50], mid:[42], name: "Maureen"},
     { id: 51, pids:[52], fid:[5], name: "Mr ??"},
     { id: 52, pids:[51], name: "Mrs ??"},
-    { id: 510, mid:[51], fid:[52], name: "Ginnie"},
+    { id: 510, mid:[51], fid:[52], pids:[310], name: "Virginia Fay"},
 
     { id: 421, fid:[50], mid:[42], pids:[440], name: "Geoff Lum Mow"},
     { id: 440, pids:[421], name: "Felicity Lum Mow"},
