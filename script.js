@@ -225,7 +225,7 @@ family.load([
     { id: 1600, fid:[170], mid:[180], pids:[1200], name: "Flavienne Higgs"},
     { id: 12000, fid:[1200], mid:[1600], pids:[12003], name: "Baptiste Higgs"},
     { id: 12002, fid:[1200], mid:[1600], name: "Emeline Higgs"},
-    { id: 12003, fid:[1200], mid:[1600], pids:[12000], name: "Talitha Higgs"},
+    { id: 12003, pids:[12000], name: "Talitha Higgs"},
 
     { id: 170, pids:[180, 175], name: "Daniel Lemoine"},
     { id: 175, pids:[170], name: "Jacqueline Lemoine"},
@@ -309,7 +309,7 @@ family.load([
 
     { id: 8200, pids:[8210], fid:[820], mid:[802], name: "Stuart Gock"},
     { id: 8201, fid:[820], mid:[802], pids:[8900], name: "Megan 🤔"},
-    { id: 8900, pids:[8900], name: "🤷🤔"},
+    { id: 8900, pids:[8201], name: "🤷🤔"},
     { id: 8202, fid:[820], mid:[802], name: "Peter Gock"},
 
     { id: 8300, pids:[8310], fid:[830], mid:[803], name: "Adam Chan"},
