@@ -221,10 +221,11 @@ family.load([
     { id: 12, name: "Bill? Higgs"},
     { id: 120, pids:[130], fid:[12], name: "Brian Higgs"},
     { id: 130, pids:[120], name: "Elizabeth Higgs"},
-    { id: 1200, fid:[120], mid:[130], pids:[1600], name: "Jonathan Higgs"},
+    { id: 1200, fid:[120], mid:[130], pids:[1600], name: "Jonathan Higgs", bdate: 1967, ddate: 2017},
     { id: 1600, fid:[170], mid:[180], pids:[1200], name: "Flavienne Higgs"},
-    { id: 12000, fid:[1200], mid:[1600], name: "Baptiste Higgs"},
+    { id: 12000, fid:[1200], mid:[1600], pids:[12003], name: "Baptiste Higgs"},
     { id: 12002, fid:[1200], mid:[1600], name: "Emeline Higgs"},
+    { id: 12003, fid:[1200], mid:[1600], pids:[12000], name: "Talitha Higgs"},
 
     { id: 170, pids:[180, 175], name: "Daniel Lemoine"},
     { id: 175, pids:[170], name: "Jacqueline Lemoine"},
@@ -281,7 +282,7 @@ family.load([
     { id: 4213, fid:[421], mid:[440], name: "Candace Lum Mow"},
 
     { id: 6, name: "Mr Mr Wong See"},
-    { id: 60, pids:[43], fid:[6], name: "Mr Wong See"},
+    { id: 60, pids:[43], fid:[6], name: "Colin Wong See"},
 
 	{ id: 430, mid:[43], pids:[801], name: "Graeme Wong See"},
 	{ id: 801, fid:[80], mid:[81], pids:[430], name: "Wendy Wong See"},
@@ -289,7 +290,7 @@ family.load([
 	{ id: 4301, fid:[430], mid:[801], name: "Benjamin Wong See"},
 	{ id: 4302, fid:[430], mid:[801], name: "Daniel Wong See"},
 
-    { id: 61, fid:[6], name: "Mr Wong See"},
+    { id: 61, fid:[6], name: "Manfred Wong See"},
     { id: 610, pids:[700], fid:[61], name: "Linda Chen"},
     { id: 700, pids:[610], name: "Michael Chen"},
     { id: 7000, fid:[700], mid:[610], pids:[7100], name: "Annelise Kelly"},
@@ -307,7 +308,8 @@ family.load([
     { id: 89, pids:[88], name: "Amy n Jackie Parent"},
 
     { id: 8200, pids:[8210], fid:[820], mid:[802], name: "Stuart Gock"},
-    { id: 8201, fid:[820], mid:[802], name: "Megan Gock"},
+    { id: 8201, fid:[820], mid:[802], pids:[8900], name: "Megan 🤔"},
+    { id: 8900, pids:[8900], name: "🤷🤔"},
     { id: 8202, fid:[820], mid:[802], name: "Peter Gock"},
 
     { id: 8300, pids:[8310], fid:[830], mid:[803], name: "Adam Chan"},
