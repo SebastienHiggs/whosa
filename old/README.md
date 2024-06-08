@@ -1,2 +1,0 @@
-# whosa
-CCPC family tree
