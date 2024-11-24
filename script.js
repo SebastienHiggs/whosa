@@ -315,7 +315,7 @@ family.load([
 
     { id: 8200, fid:[820], mid:[802], name: "Stuart Gock"},
     { id: 8201, fid:[820], mid:[802], pids:[8900], name: "Megan Gock"},
-    { id: 8900, pids:[8201], name: "Clement Wong"},
+    { id: 8900, pids:[8201], name: "Clement Ding"},
     { id: 8203, fid:[820], mid:[802], name: "Peter Gock"},
 
     { id: 8300, pids:[8310], fid:[830], mid:[803], name: "Adam Chan"},
